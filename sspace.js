@@ -55,14 +55,22 @@ function LineStrip(input) {
 }
 
 function Main(input) {
-        console.log("Welcome, Good User! Enter text, and the translator will detect whether you're encoding or decoding based on the presense of characters other than whitespace");
         input = LineStrip(input);
         if (IsClean(input)) {
                 // Decode
-                console.log(Decode(inpur));
+                console.log(Decode(input));
+                return Decode(input);
         } else {
                 // Encode
                 console.log(Encode(input));
+                return Encode(input);
         }
 }
+
+function Input() {
+        event.preventDefault();
+        document.getElementById("output").value = Main(document.getElementById("input").value)
+}
+
+module.exports = { Main }
 //_                                       _//

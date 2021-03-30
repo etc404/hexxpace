@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+        <head>
+                <meta charset="utf-8"/>
+                <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+                <script src="https://unpkg.com/jquery.terminal/js/jquery.terminal.min.js"></script>
+                <script src="sspace.js"></script>
+                <link rel="stylesheet" href="https://unpkg.com/jquery.terminal/css/jquery.terminal.min.css"/>
+                <style type="text/css">
+                    @import url(input.css);
+                </style>
+        </head>
+        <body>
+                <form name="primary">
+                        <input type="text" class="question" id="input" required autocomplete="off" />
+                        <label for="input"><span>Input Text =>> </span></label>
+                        <button type="submit" value="Submit!" onclick="Input()"/>
+                        <label for="result">Output Text =<<</label>
+                        <textarea type="result" id="output"></textarea>
+                </form>
+        </body>
+</html>
