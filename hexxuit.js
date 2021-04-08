@@ -1,6 +1,6 @@
 // A CLI version of the sspace tool //
 
-const f = require('./sspace');
+const f = require('./hexxpace');
 
 const readline = require('readline').createInterface({
         input: process.stdin,

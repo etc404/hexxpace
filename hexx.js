@@ -1,7 +1,7 @@
 // Welcome To sspace.js! This Script Will Translate To And From A Whitespace-ified Version Of Binary! //
 
 ws = ["​", " ", " ", " ", " ", " ", " ", " ", " ", " ", " ", " ", " ", " ", " ", "　"]
-hex = ["0", "1", "2", "3", "4", "5", "6", "7", "8", "9", "A", "B", "C", "D", "E", "F"]
+hex = ["0", "1", "2", "3", "4", "5", "6", "7", "8", "9", "a", "b", "c", "d", "e", "f"]
 
 function StrToHex(input) {
         var output = ""
@@ -23,7 +23,8 @@ function HexToStr(input) {
 function WsToHex(input) {
         var output = "";
         for (var i = 0; i < input.length; i++) {
-                output += hex[i];
+                console.log(input[i]);
+                output += hex[ws.indexOf(input[i])];
         };
         return output;
 }
@@ -31,7 +32,6 @@ function WsToHex(input) {
 function HexToWs(input) {
         var output = "";
         for (var i = 0; i < input.length; i++) {
-
                 output += ws[hex.indexOf(input[i])];
         };
         return output;
