@@ -1,4 +1,4 @@
-# hello one and hello all! I humbly present to you...
+# Hello one and hello all! I humbly present to you...
 
 # hexxpace
 Do I smell spacial efficiency? Delicious :p
@@ -23,3 +23,5 @@ Do I smell spacial efficiency? Delicious :p
 
 With this short and sweet tool, you can make invisible ink messages that are not only decodable, but oft smaller than normal text to begin with!
 Enjoy ;}
+
+Can now be found in website form at https://etc404.github.io/hexxpace/
