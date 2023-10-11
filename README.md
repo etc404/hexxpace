@@ -1,7 +1,5 @@
-# Hello one and hello all! I humbly present to you...
-
 # hexxpace
-Do I smell spacial efficiency? Delicious :p
+Like invisible ink but actually invisible on a screen :D
 
 ## Say Hello To Our Contenders!
 "​": 0 Width Space - 0 hexadec - 0000 binary
@@ -21,7 +19,6 @@ Do I smell spacial efficiency? Delicious :p
 " ": Medium Math Space - E hexadec - 1110 binary
 "　": Ideographic Space - F hexadec - 1111 binary
 
-With this short and sweet tool, you can make invisible ink messages that are not only decodable, but oft smaller than normal text to begin with!
-Enjoy ;}
+Encodable, decodable, and generally less spacially significant than the original messages. Enjoy!
 
 Can now be found in website form at https://etc404.github.io/hexxpace/
