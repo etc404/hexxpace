@@ -63,7 +63,7 @@ function IsClean(input) {
 }
 
 function LineStrip(input) {
-        return input.replace(/_/g, '');
+        return input.replace(/^_|_$/g, '');
 }
 
 function Main(input) {
